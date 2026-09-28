@@ -1,0 +1,58 @@
+{
+  "id": "/",
+  "name": "MoroPolice",
+  "short_name": "MoroPolice",
+  "description": "تطبيق شامل للتحضير لمباريات الأمن الوطني والشرطة المغربية مع كويزات تفاعلية ونماذج QCM مشروحة",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#0d47a1",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": ["education"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "اختبار QCM",
+      "short_name": "اختبار",
+      "description": "بدء اختبار تجريبي لمباراة الأمن الوطني",
+      "url": "/",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "الأسلاك الأمنية",
+      "short_name": "الأسلاك",
+      "description": "استعراض رتب وشروط أسلاك الشرطة",
+      "url": "/",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "prefer_related_applications": false
+}

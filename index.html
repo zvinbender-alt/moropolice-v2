@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MoroPolice - بوابة التحضير لمباريات الأمن الوطني 2025 | QCM DGSN</title>
+    <meta name="description" content="تطبيق تعليمي للتحضير لمباريات الأمن الوطني والشرطة المغربية 2025 مع كويزات تفاعلية ونماذج QCM مشروحة. تطبيق غير رسمي لا يمثل أي جهة حكومية." />
+    <meta name="keywords" content="مباراة الأمن الوطني 2025, DGSN, حراس الأمن, مفتشي الشرطة, QCM, الشرطة المغربية" />
+    <meta property="og:title" content="MoroPolice - بوابة التحضير لمباريات الأمن الوطني 2025 | QCM DGSN" />
+    <meta property="og:description" content="تطبيق تعليمي للتحضير لمباريات الأمن الوطني والشرطة المغربية 2025 مع كويزات تفاعلية ونماذج QCM مشروحة. تطبيق غير رسمي لا يمثل أي جهة حكومية." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/moropolice_logo.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#0d47a1" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="MoroPolice" />
+
+    <!-- Google AdSense Script (Header) -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1048406915067602" crossorigin="anonymous"></script>
+
+    <!-- Web App Manifest for PWA & Google Play / PWABuilder -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Favicons & App Icons -->
+    <link rel="icon" type="image/svg+xml" href="/moropolice_logo.svg" />
+    <link rel="alternate icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/assets/index-BQGItkGw.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DPP7KEmI.css">
+  </head>
+  <body class="bg-[#0a192f] text-slate-100 antialiased font-sans selection:bg-[#FFD700] selection:text-[#0a192f]">
+    <div id="root"></div>
+
+    <!-- Service Worker Registration Script -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js', { scope: '/' }).then((reg) => {
+            console.log('MoroPolice Service Worker registered successfully:', reg.scope);
+          }).catch((err) => {
+            console.log('MoroPolice Service Worker registration error:', err);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
